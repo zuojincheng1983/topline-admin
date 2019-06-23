@@ -1,10 +1,17 @@
 <template>
-  <div>index</div>
+  <div>
+    <p>Home Component</p>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'AppHome',
+  data () {
+    return {}
+  }
+}
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 </style>

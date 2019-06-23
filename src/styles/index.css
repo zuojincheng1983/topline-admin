@@ -6,3 +6,8 @@ html,
 body {
   height: 100%;
 }
+html a,
+body a {
+  text-decoration: none;
+  color: #0097fb;
+}
