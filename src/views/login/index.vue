@@ -4,7 +4,7 @@
     <div class="form-wrap">
       <div class="form-head">
         <!-- <img src="./logo_index.png" alt="黑马头条号"> -->
-        <h2>头条管理系统</h2>
+        <h1>头条管理系统</h1>
       </div>
       <el-form class="form-content" ref="form" :model="form" :rules="rules">
         <el-form-item prop="mobile">
@@ -32,7 +32,7 @@
 
 <script>
 import axios from 'axios'
-import '@/vendor/gt'
+
 const initCodeTimeSeconds = 60
 
 export default {
@@ -189,7 +189,7 @@ export default {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    h2 {
+    h1 {
       color: #274870;
     }
     .code {

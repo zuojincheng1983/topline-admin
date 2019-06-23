@@ -11,6 +11,5 @@ export default {}
 <style lang="less">
 #app {
   height: 100%;
-  background-color: #f00;
 }
 </style>
